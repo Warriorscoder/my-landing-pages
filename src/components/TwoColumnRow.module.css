@@ -1,0 +1,38 @@
+.twoCol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.textColumn, .imageColumn {
+  flex: 1;
+  min-width: 300px;
+}
+.textColumn h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.textColumn p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+.imageColumn img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.cta {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #333;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
