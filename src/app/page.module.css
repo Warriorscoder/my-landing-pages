@@ -1,8 +1,8 @@
 
 .page {
-  background-color: #f9fafb; /* subtle off-white */
-  min-height: 100vh; /* full viewport height */
-  color: #1f2937; /* A dark gray for good readability */
+  background-color: #f9fafb;
+  min-height: 100vh; 
+  color: #1f2937; 
   font-family: var(--font-inter), sans-serif;
 }
 
