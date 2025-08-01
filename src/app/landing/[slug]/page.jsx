@@ -119,14 +119,13 @@ export async function generateMetadata({ params }) {
 // --- Page Component (Updated) ---
 export default async function LandingPage({ params }) {
   const data = await getPageData(params.slug);
-  
+  console.log('Landing Page Data:', data);
   if (!data || !data.components) {
     notFound();
   }
   
   return (
     <>
-      <JsonLd pageTitle={data.title} slug={params.slug} />
       <main>
         {data.components.map((component, index) => {
           switch (component.__typename) {
