@@ -1,8 +1,8 @@
 
 .page {
-  background-color: #f9fafb; /* subtle off-white */
-  min-height: 100vh; /* full viewport height */
-  color: #1f2937; /* A dark gray for good readability */
+  background-color: #f9fafb; 
+  min-height: 100vh; 
+  color: #1f2937; 
   font-family: var(--font-inter), sans-serif;
 }
 
@@ -44,10 +44,10 @@
 
 /* Primary section titles */
 .sectionTitle {
-  font-size: 1.875rem; /* text-3xl */
-  font-weight: 600; /* font-semibold */
+  font-size: 1.875rem; 
+  font-weight: 600; 
   margin-bottom: 1rem;
-  color: #2563eb; /* text-blue-600 */
+  color: #2563eb; 
 }
 
 /* Standard paragraph text within sections */

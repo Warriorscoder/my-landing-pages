@@ -1,5 +1,5 @@
 export default function JsonLd({ pageTitle, slug }: { pageTitle: string, slug: string }) {
-  // Remember to replace 'https://YOUR_VERCEL_URL' with your actual production URL
+
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://YOUR_VERCEL_URL';
   
   const structuredData = {

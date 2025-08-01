@@ -16,7 +16,7 @@ export default function TwoColumnRow({ data }: TwoColumnRowProps) {
   const { heading, subtitle, cta, image } = data;
 
   return (
-    <section className={`${styles.twoCol} ${animations.fadeIn}`}> {/* <-- ADDED: Apply fadeIn class */}
+    <section className={`${styles.twoCol} ${animations.fadeIn}`}> 
       <div className={styles.textColumn}>
         {heading && <h2>{heading}</h2>}
         {subtitle && <p>{subtitle}</p>}

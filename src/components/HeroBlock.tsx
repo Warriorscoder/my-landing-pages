@@ -16,7 +16,7 @@ export default function HeroBlock({ data }: HeroBlockProps) {
   const { heading, subtitle, cta, backgroundImage } = data;
 
   return (
-    <section className={`${styles.hero} ${animations.fadeIn}`}> {/* <-- ADDED: Apply fadeIn class */}
+    <section className={`${styles.hero} ${animations.fadeIn}`}> 
       {backgroundImage && (
         <div className={styles.backgroundImage}>
           <Image

@@ -19,7 +19,7 @@ export default function ImageGrid({ data }: ImageGridProps) {
   }
 
   return (
-    <section className={`${styles.grid} ${animations.fadeIn}`}> {/* <-- ADDED: Apply fadeIn class */}
+    <section className={`${styles.grid} ${animations.fadeIn}`}> 
       {images.map((image, index) => (
         <div key={image.url} className={styles.gridItem}>
           <Image
