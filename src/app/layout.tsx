@@ -32,6 +32,7 @@ export default function RootLayout({
           }}>
             <Link href="/landing/page-1">Page 1</Link>
             <Link href="/landing/page-2">Page 2</Link>
+            <Link href="/">Home</Link>
           </nav>
         </header>
         {children}
