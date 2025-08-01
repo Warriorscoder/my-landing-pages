@@ -1,46 +1,23 @@
 
 .page {
-  background-color: #f9fafb;
-  min-height: 100vh; 
-  color: #1f2937; 
+  background-color: #f9fafb; /* subtle off-white */
+  min-height: 100vh; /* full viewport height */
+  color: #1f2937; /* A dark gray for good readability */
   font-family: var(--font-inter), sans-serif;
 }
 
 /* Header: A sticky top bar with a subtle shadow */
 .header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 50;
-  background-color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
 
-.headerContainer {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navLinks {
-  display: flex;
-  gap: 1rem;
-}
-
-.navLink {
-  color: #4a5568;
-  transition: color 0.2s ease-in-out;
-}
-
-.navLink:hover {
-  color: #3b82f6;
-}
-
-.title {
-  font-size: 1.5rem; /* text-2xl */
-  font-weight: 700; /* font-bold */
+.space-x-4{
+   gap: 1rem;
 }
 
 /* Header container: Centers content and provides responsive padding */
